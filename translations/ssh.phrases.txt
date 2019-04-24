@@ -1,86 +1,101 @@
 "Phrases"
 {
 	//Punishment menu title
+	//处罚菜单标题
 	//{Name} ({SteamID}). Last Logo sprayed {#Seconds}s ago.
+	//{Name} ({SteamID}). 最后一个Logo喷出{#Seconds}之前。
 	"Title"
 	{
 		"#format"		"{1:s},{2:s},{3:d}"
 		"en"			"{1} ({2}). Last Logo sprayed {3}s ago."
+		"chi"			"{1} ({2}). 最后一个Logo在{3}之前喷出。"
 	}
 
-	//Admin spray menu title
+	//Admin spray menu title //管理员喷涂菜单标题
 	"Admin Spray Menu"
 	{
 		"en"			"Select a player"
+		"chi"			"选择一名玩家"
 	}
 
-	//Punishment option
+	//Punishment option //惩罚选项
 	"Warn"
 	{
 		"en"			"Warn Player"
+		"chi"			"警告玩家"
 	}
 
-	//Punishment option
+	//Punishment option 
 	"SlapWarn"
 	{
 		"#format"		"{1:d}"
 		"en"			"Slap and warn Player for {1} dmg"
+		"chi"			"拍打并警告玩家{1}dmg"
 	}
 
 	//Punishment option
 	"Slay"
 	{
 		"en"			"Slay Player"
+		"chi"			"杀戮玩家"
 	}
 
 	//Punishment option
-	//Burn Player for {#of Seconds} seconds
+	//Burn Player for {#of Seconds} seconds //燃烧玩家{#of Seconds}秒
 	"BurnWarn"
 	{
 		"#format"		"{1:d}"
 		"en"			"Burn Player for {1} seconds"
+		"chi"			"燃烧玩家{1}秒"
 	}
 
 	//Punishment option
 	"Freeze"
 	{
 		"en"			"Freeze"
+		"chi"			"冻结"
 	}
 
 	//Punishment option
 	"Beacon"
 	{
 		"en"			"Beacon"
+		"chi"			"点灯"
 	}
 
 	//Punishment option
 	"FreezeBomb"
 	{
 		"en"			"Freeze Bomb"
+		"chi"			"冻结炸弹"
 	}
 
 	//Punishment option
 	"FireBomb"
 	{
 		"en"			"Fire Bomb"
+		"chi"			"燃烧弹"
 	}
 
 	//Punishment option
 	"TimeBomb"
 	{
 		"en"			"Time Bomb"
+		"chi"			"定时炸弹"
 	}
 
 	//Punishment option
 	"Drug"
 	{
 		"en"			"Drug"
+		"chi"			"麻醉"
 	}
 
 	//Punishment option
 	"Kick"
 	{
 		"en"			"Kick Player"
+		"chi"			"踢出玩家"
 	}
 
 	//Punishment option
@@ -88,68 +103,79 @@
 	"Ban"
 	{
 		"en"			"Ban Player"
+		"chi"			"封禁玩家"
 	}
 
 	//Punishment option
 	"PBan"
 	{
 		"en"			"Ban Player permanently"
+		"chi"			"永久封禁玩家"
 	}
 	
-	//Punishment option
+	//Punishment option	//处罚选项
 	"SPBan"
 	{
 		"en"			"Ban Player from Spraying"
+		"chi"			"禁止玩家从喷涂"
 	}
 
-	//Menu option
+	//Menu option	//菜单选项
 	"Trace"
 	{
 		"en"			"Trace Spray"
+		"chi"			"跟踪喷雾"
 	}
 
 	//Menu option
 	"Remove"
 	{
 		"en"			"Remove Spray"
+		"chi"			"删除喷雾"
 	}
 	
 	//Menu option
 	"QuickRemove"
 	{
 		"en"			"Quickly Remove Spray"
+		"chi"			"快速去除喷雾"
 	}
 
 	//Menu option
 	"AdminSpray"
 	{
 		"en"			"Admin Spray"
+		"chi"			"管理员喷雾"
 	}
 
 	//Warning
 	"Please change"
 	{
 		"en"			"Please change your spray logo, it is inappropriate."
+		"chi"			"请更改您的喷雾Logo, 这是服务器不允许并禁止的。"
 	}
 
 	//Kick reason
 	"Bad Spray Logo"
 	{
 		"en"			"Bad Spray Logo"
+		"chi"			"禁止的喷雾Logo"
 	}
 
-	//Command reply
+	//Command reply	//命令回复
 	"Could Not Find"
 	{
 		"en"			"Could not find target"
+		"chi"			"无法找到目标"
 	}
 
-	//Punishment reply
+	//Punishment reply	//惩罚回复
 	//Could not find player {Name} ({SteamID})
 	"Could Not Find Name ID"
 	{
 		"#format"		"{1:s},{2:s}"
 		"en"			"Could not find player {1} ({2})"
+		"chi"			"无法找到玩家{1} ({2})"
 	}
 
 	//Punishment reply
@@ -158,6 +184,7 @@
 	{
 		"#format"		"{1:s}"
 		"en"			"Could not find player {1}"
+		"chi"			"找不到玩家{1}"
 	}
 
 	//Punishment annoucement
@@ -166,6 +193,7 @@
 	{
 		"#format"		"{1:s},{2:s}"
 		"en"			"Warned player {1} ({2})"
+		"chi"			"警告的玩家{1} ({2})"
 	}
 
 	//Punishment annoucement
@@ -174,6 +202,7 @@
 	{
 		"#format"		"{1:s},{2:s},{3:d}"
 		"en"			"Slapped and warned player {1} ({2}) for {3} dmg"
+		"chi"			"杀死警告玩家{1} ({2}) 为 {3} dmg"
 	}
 
 	//Punishment annoucement
@@ -182,6 +211,7 @@
 	{
 		"#format"		"{1:s},{2:s}"
 		"en"			"Slayed and warned player {1} ({2})"
+		"chi"			"杀死并警告玩家 {1} ({2})"
 	}
 
 	//Punishment annoucement
@@ -190,6 +220,7 @@
 	{
 		"#format"		"{1:s},{2:s}"
 		"en"			"Burnt and warned player {1} ({2})"
+		"chi"			"焚烧并警告过玩家 {1} ({2})"
 	}
 
 	//Punishment annoucement
@@ -198,6 +229,7 @@
 	{
 		"#format"		"{1:s},{2:s}"
 		"en"			"Froze player {1} ({2})"
+		"chi"			"冻结玩家 {1} ({2})"
 	}
 
 	//Punishment annoucement
@@ -206,6 +238,7 @@
 	{
 		"#format"		"{1:s},{2:s}"
 		"en"			"Put a beacon on player {1} ({2})"
+		"chi"			"在玩家身上放置一个信标{1} ({2})"
 	}
 
 	//Punishment annoucement
@@ -214,6 +247,7 @@
 	{
 		"#format"		"{1:s},{2:s}"
 		"en"			"Put a freeze bomb on player {1} ({2})"
+		"chi"			"在玩家身上放置一个冰冻炸弹{1} ({2})"
 	}
 
 	//Punishment annoucement
@@ -222,6 +256,7 @@
 	{
 		"#format"		"{1:s},{2:s}"
 		"en"			"Put a fire bomb on player {1} ({2})"
+		"chi"			"在玩家身上放置一个燃烧弹{1} ({2})"
 	}
 
 	//Punishment annoucement
@@ -230,6 +265,7 @@
 	{
 		"#format"		"{1:s},{2:s}"
 		"en"			"Put a time bomb on player {1} ({2})"
+		"chi"			"在玩家身上放置定时炸弹{1} ({2})"
 	}
 
 	//Punishment message
@@ -238,6 +274,7 @@
 	{
 		"#format"		"{1:s},{2:s}"
 		"en"			"Drugged player {1} ({2})"
+		"chi"			"麻醉玩家{1} ({2})"
 	}
 
 	//Punishment annoucement
@@ -246,6 +283,7 @@
 	{
 		"#format"		"{1:s},{2:s}"
 		"en"			"Kicked player {1} ({2}) for a bad spray logo"
+		"chi"			"踢出玩家 {1} ({2})使用违规的喷图logo"
 	}
 
 	//Punishment annoucement
@@ -254,6 +292,7 @@
 	{
 		"#format"		"{1:s},{2:s},{3:s},{4:d}"
 		"en"			"{1} banned player {2} ({3}) for {4} minutes for a bad spray logo"
+		"chi"			"{1} 封禁玩家 {2} ({3}) 为 {4}分钟，使用禁止的喷图logo"
 	}
 
 	//Punishment annoucement
@@ -262,6 +301,7 @@
 	{
 		"#format"		"{1:s},{2:s},{3:s},{4:d},{5:s}"
 		"en"			"{1} banned player {2} ({3}) for {4} minutes with {5} for a bad spray logo"
+		"chi"			"{1} 封禁玩家 {2} ({3}) 为 {4} 分钟内使用 {5} 因为有不良的喷图logo"
 	}
 
 	//Punishment annoucement
@@ -270,6 +310,7 @@
 	{
 		"#format"		"{1:s},{2:s},{3:s}"
 		"en"			"{1} permanently banned player {2} ({3}) for a bad spray logo"
+		"chi"			"{1} 永久封禁玩家 {2} ({3}) 使用禁止的喷图"
 	}
 
 	//Punishment annoucement
@@ -278,6 +319,7 @@
 	{
 		"#format"		"{1:s},{2:s},{3:s},{4:s}"
 		"en"			"{1} permanently banned player {2} ({3}) for a bad spray logo with {4}"
+		"chi"			"{1} 永久封禁玩家 {2} ({3}) 使用 {4}禁止的喷图"
 	}
 	
 	//Punishment annoucement
@@ -286,6 +328,7 @@
 	{
 		"#format"	"{1:s},{2:s},{3:s}"
 		"en"	"{1} Spray banned player {2} ({3}) for a bad spray logo"
+		"chi"			"{1} 禁止玩家喷图 {2} ({3}) 因为一个严重的禁止的喷图"
 	}
 
 	//Command reply
@@ -294,6 +337,7 @@
 	{
 		"#format"		"{1:s},{2:s}"
 		"en"			"Sprayed by: {1} ({2})"
+		"chi"			"喷图者: {1} ({2})"
 	}
 
 	//Command reply
@@ -302,6 +346,7 @@
 	{
 		"#format"		"{1:s}"
 		"en"			"Sprayed by: {1}"
+		"chi"			"喷图者: {1}"
 	}
 
 	//Command reply
@@ -310,12 +355,14 @@
 	{
 		"#format"		"{1:N},{2:N}"
 		"en"			"{1} sprayed {2}'s spray"
+		"chi"			"{1} 喷出 {2}喷图"
 	}
 
 	//Command Reply
 	"Cannot Spray"
 	{
 		"en"			"Error: Cannot spray the target's spray"
+		"chi"			"错误：无法喷射目标的喷雾"
 	}
 
 	//Command reply
@@ -324,18 +371,21 @@
 	{
 		"#format"		"{1:s},{2:s},{3:d}"
 		"en"			"Spray by {1} ({2}), {3} seconds ago"
+		"chi"			"喷图的 {1} ({2}), {3} 秒之前"
 	}
 
 	//Command reply
 	"No Spray"
 	{
 		"en"			"No spray were found on where you are looking at"
+		"chi"			"在你看到的地方没有发现喷图"
 	}
 	
 	//Command reply
 	"No Sprays"
 	{
 		"en"			"No Sprays have been sprayed."
+		"chi"			"没有喷过喷雾剂"
 	}
 
 	//Command reply
@@ -344,6 +394,7 @@
 	{
 		"#format"		"{1:s},{2:s},{3:s}"
 		"en"			"Spray from {1} ({2}) has been removed by {3}"
+		"chi"			"来自 {1} ({2}) 的喷雾已被 {3}删除"
 	}
 	
 	//Command reply
@@ -352,6 +403,7 @@
 	{
 		"#format"		"{1:s}"
 		"en"			"All Sprays have been removed by {1}"
+		"chi"			"所有喷雾已被{1}删除"
 	}
 
 	//Punishment logging
@@ -360,6 +412,7 @@
 	{
 		"#format"		"{1:s},{2:s},{3:s}"
 		"en"			"{1} warned player {2} ({3})"
+		"chi"			"{1} 警告玩家 {2} ({3})"
 	}
 
 	//Punishment logging
@@ -368,6 +421,7 @@
 	{
 		"#format"		"{1:s},{2:s},{3:s},{4:d}"
 		"en"			"{1} slapped and warned player {2} ({3}) for {4} dmg"
+		"chi"			"{1} 拍打并警告玩家 {2} ({3}) 使用 {4} dmg"
 	}
 
 	//Punishment logging
@@ -376,6 +430,7 @@
 	{
 		"#format"		"{1:s},{2:s},{3:s}"
 		"en"			"{1} slayed and warned player {2} ({3})"
+		"chi"			"{1} 杀死并警告玩家 {2} ({3})"
 	}
 
 	//Punishment logging
@@ -384,6 +439,7 @@
 	{
 		"#format"		"{1:s},{2:s},{3:s}"
 		"en"			"{1} burnt and warned player {2} ({3})"
+		"chi"			"{1} 燃烧并警告玩家 {2} ({3})"
 	}
 
 	//Punishment annoucement
@@ -392,6 +448,7 @@
 	{
 		"#format"		"{1:s},{2:s},{3:s}"
 		"en"			"{1} froze player {2} ({3}) for a bad spray logo"
+		"chi"			"{1} 冻结玩家 {2} ({3}) 一个不好的喷雾logo"
 	}
 
 	//Punishment annoucement
@@ -400,6 +457,7 @@
 	{
 		"#format"		"{1:s},{2:s},{3:s}"
 		"en"			"{1} put a beacon on player {2} ({3}) for a bad spray logo"
+		"chi"			"{1} 在玩家 {2} ({3}) 上放一个信标，表示喷图logo不好"
 	}
 
 	//Punishment annoucement
@@ -408,6 +466,7 @@
 	{
 		"#format"		"{1:s},{2:s},{3:s}"
 		"en"			"{1} put a freeze bomb on player {2} ({3}) for a bad spray logo"
+		"chi"			"{1} 在玩家 {2} ({3}) 上放置了一个冰冻炸弹，因为他使用了禁止的喷图logo"
 	}
 
 	//Punishment annoucement
@@ -416,6 +475,7 @@
 	{
 		"#format"		"{1:s},{2:s},{3:s}"
 		"en"			"{1} put a fire bomb on player {2} ({3}) for a bad spray logo"
+		"chi"			"{1} 在玩家 {2} ({3}) 上放了一个燃烧弹，因为它的喷图logo不好"
 	}
 
 	//Punishment annoucement
@@ -424,6 +484,7 @@
 	{
 		"#format"		"{1:s},{2:s},{3:s}"
 		"en"			"{1} put a time bomb on player {2} ({3}) for a bad spray logo"
+		"chi"			"{1} 在玩家 {2} ({3}) 上放置了一个定时炸弹，因为它有一个不好的喷图标志"
 	}
 
 	//Punishment message
@@ -432,6 +493,7 @@
 	{
 		"#format"		"{1:s},{2:s},{3:s}"
 		"en"			"{1} drugged player {2} ({3}) for a bad spray logo"
+		"chi"			"{1} 麻醉玩家 {2} ({3}) 使用坏喷图logo"
 	}
 
 	//Punishment logging
@@ -440,6 +502,7 @@
 	{
 		"#format"		"{1:s},{2:s},{3:s}"
 		"en"			"{1} kicked player {2} ({3}) for a bad spray logo"
+		"chi"			"{1} 踢出玩家 {2} ({3})使用被禁止的喷雾logo"
 	}
 	
 	//Punishment logging
@@ -448,21 +511,24 @@
 	{
 		"#format"		"{1:s},{2:s},{3:s}"
 		"en"			"{1} Spray banned player {2} ({3}) for a bad spray logo."
+		"chi"			"{1} 禁止喷图玩家 {2} ({3}) 使用了禁止的喷图logo."
 	}
 
-	//Command fail reply
+	//Command fail reply 命令失败回复
 	//{AdminName} tried to punish {OtherAdminName} but failed. {OtherAdminName} has higher immunity.
 	"Admin Immune Log"
 	{
 		"#format"		"{1:s},{2:s}"
 		"en"			"{1} tried to punish {2} but failed. {2} has higher immunity."
+		"chi"			"{1} 试图惩罚 {2} 但是失败了。{2} 具有更高的免疫权限。"
 	}
 
-	//Command fail reply
+	//Command fail reply 命令失败回复
 	//You tried to punish {OtherAdminName} but failed. {OtherAdminName} has higher immunity.
 	"Admin Immune"
 	{
 		"#format"		"{1:s}"
 		"en"			"You tried to punish {1} but failed. {1} has higher immunity."
+		"chi"			"你试图惩罚 {1} 但是失败了。 {1} 具有较高的免疫权限。"
 	}
 }
